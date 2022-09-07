@@ -1,0 +1,203 @@
+*{
+    background-size: 100%;
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 50%;
+    height: 32vh;
+    left: 0.2%;
+    background-color: #A5C9CA;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -27%;
+    right: 2%;
+    padding: 14%;
+    visibility: hidden;
+    border-radius: 50px;
+
+}
+.popup{
+    width: 500px;
+    border-radius: 6px;
+    position: relative;
+    top: 0;
+    left: 45%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: right;
+    padding: 0 50px 50px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    font-style: oblique;
+}
+.open-popup{
+    visibility: visible;
+    top: 0;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup h2{
+    position: relative;
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin: 20px 0 20px;
+    text-align:center;
+    color: black;
+    left: 5%;
+}
+.popup button{
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    background: #2C3333;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px #97D2EC;
+    margin: 0 auto;
+    left: 5%;
+    border-radius: 50px;
+    
+}
+@media screen and (max-width:768px){
+    .popup button {
+       display: block;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 10px;
+       max-width: 100%;
+   }
+
+
+}
+
+
+@media screen and (max-width:380px){
+   .popup button {
+       margin: 0;
+       margin-top: 50px;
+       font-size: 8px;
+       transition: .5s;
+       max-width: 100%;
+   }
+
+}
+.endMsg{
+    margin: 0 auto;
+    bottom: 200%;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .6s;
+    border: none;
+}
+
+.CardCreator{
+    position: relative;
+    max-width: 140rem;
+    margin-left: 50px;
+}
+.back{
+    pointer-events: none   
+}
+.flip{
+    transform: rotateY(180deg);
+    width: 10rem;
+    content: url(img/cards\ back.jpg);
+}
+.card img:nth-child(1){
+    display: block;
+    width: 150px;
+    height: 220px;
+}
+
+.test{
+    pointer-events: none
+}
+#user{
+    position: relative;
+    font-size: 400%;
+    left: 10%;
+    padding: 70px;
+    margin: 0 auto;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    color:#2C3333;
+
+}
+a{
+    display: inline-block;
+    font-family:fantasy;
+    left: 103%;
+    border: 10px solid #395B64;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 1rem;
+    border-radius: 20%;
+    position: relative;
+    background-color: #A5C9CA;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+#seconds{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    color: #2C3333;
+    margin: 0 auto;
+}
+#minutes{
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #2C3333;
+}
+.progress{
+    max-width: 60rem;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+#prog{
+    margin: 0 auto;
+    padding: 15px;
+    width: fit-content;
+    font-style: oblique;
+    color:#2C3333;
+    font-size: 50px;
+}
+.container2{
+    position: relative;
+    padding-right: 22rem;
+}
+#barz{
+    color: white;
+    background-color: #2C3333;
+}
+b{
+        border: 4px solid #395B64;
+        border-radius: 15px;
+        padding: 4px;
+}
+.match{
+    pointer-events: none;
+}
