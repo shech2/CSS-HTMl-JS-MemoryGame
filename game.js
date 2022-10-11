@@ -113,7 +113,7 @@ $(() => {
         array.sort(() => Math.random() - 0.5);
     }
     function Restart() {
-        window.location.href = "homePage.html";
+        window.location.href = "index.html";
     }
     let popup = document.getElementById("popup");
     function openPopup(){
